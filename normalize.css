@@ -1,0 +1,147 @@
+@charset "UTF-8"
+
+.container {
+container: margin 0 auto;
+width: 960px;
+}
+h1 a {
+    color:#5f945f ;
+    text-decoration: none;
+}
+
+h1 a:hover {
+    color: #000000b7;
+    border: #516451;
+    border-radius: 5px;
+    lighting-color: #fafdff;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.6;
+    background: rgb(248, 235, 204) url(images/noise.png);
+}
+.body h1:hover {
+    color: #000000;
+}
+.place {
+    background-color: rgb(231, 225, 225);
+    border-color: rgb(103, 158, 94);
+    border: 1px solid rgb(156, 201, 160);
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+.place:hover {
+    transform: scale(1.01 );
+    color: #4b8850;
+    border-color: #429e58;
+    background-color: #ffffff;
+}
+.place p {
+    text-align: justify;
+    color: #417e41;
+}
+.place p:hover {
+    color: #000000;
+}
+.place h2 {
+    border-bottom: 1px dashed grey;
+    margin: 0;
+   
+}
+h2 {
+    color: rgb(67, 85, 55);
+}
+.place a {
+color: #2386bc;
+font-weight: bold;
+}
+.place img {
+    border: 1px solid rgb(155, 196, 154);
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+    filter: brightness(1.0);
+}
+.place img:hover {
+    transform: scale(1.005);
+    border-radius: 5px;
+    border-color: #000000;
+    filter: brightness(1.2);
+}
+.clear {
+    clear: both;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: center;
+}
+.sidenote {
+    background-color: #dfdeda;
+    border: 1px solid rgba(56, 100, 69, 0.434);
+    padding: 10px;
+    float: right;
+    width: 250px;
+    color: #417e41;
+}
+.sidenote:hover {
+    background-color: #fcfcfc;
+    color: #000000;
+    transform: scale(1.05);
+    border-radius: 0%;
+    border-color: #429e58;
+    cursor: pointer;
+}
+.sidenote h3 {
+font-size: 14px;
+margin-top: 0;
+}
+.sidenote ol {
+font-size: 12px;
+}
+.places {
+    float: left ;
+    width: 950px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #9adbe6;
+    border:  1px solid rgba(125, 180, 128, 0.712);
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li {
+    margin-left: 20px;
+}
+nav ul li a {
+    color: rgb(95, 173, 112);
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+.menu nav ul li a:hover {
+    background-color: #b9dbc2;
+    color: rgb(10, 8, 8);
+    border-radius: 5px;
+    border-width: 10px;
+}
+.menu:hover {
+    border-color: #000000;
+}
+h1 {
+    color: rgb(88, 109, 89);
+
+}
+.local {
+    text-decoration: none;
+    color: black;
+}
+.local a {
+    color: white;
+}
