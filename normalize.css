@@ -1,8 +1,12 @@
-@charset "UTF-8"
 
 .container {
 container: margin 0 auto;
 width: 960px;
+}
+#bemvindo {
+    color: rgb(107, 161, 88);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
 }
 h1 a {
     color:#5f945f ;
@@ -18,15 +22,15 @@ h1 a:hover {
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.6;
-    background: rgb(248, 235, 204) url(images/noise.png);
+    background: rgb(230, 247, 251) url(images/noise.png);
 }
 .body h1:hover {
     color: #000000;
 }
 .place {
-    background-color: rgb(231, 225, 225);
-    border-color: rgb(103, 158, 94);
-    border: 1px solid rgb(156, 201, 160);
+    background-color: rgba(246, 213, 29, 0.108);
+    border-color: rgba(4, 4, 4, 0.229);
+    border: 1px solid rgba(3, 4, 3, 0.324);
     margin-bottom: 20px;
     padding: 10px;
     
@@ -40,12 +44,13 @@ body {
 .place p {
     text-align: justify;
     color: #417e41;
+    font-size: 20px;
 }
 .place p:hover {
     color: #000000;
 }
 .place h2 {
-    border-bottom: 1px dashed grey;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.376);
     margin: 0;
    
 }
@@ -57,12 +62,21 @@ color: #2386bc;
 font-weight: bold;
 }
 .place img {
-    border: 1px solid rgb(155, 196, 154);
+    border: 1px solid rgba(0, 0, 0, 0.379);
     float: left;
     margin: 10px 10px 0 0;
     padding: 2px;
     filter: brightness(1.0);
+    width: 250px;
+    height: 250px;
+    object-fit:cover;
 }
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 .place img:hover {
     transform: scale(1.005);
     border-radius: 5px;
@@ -74,36 +88,10 @@ font-weight: bold;
 }
 
 .footer {
-    font-size: 12px;
+    font-size: 20px;
     text-align: center;
 }
-.sidenote {
-    background-color: #dfdeda;
-    border: 1px solid rgba(56, 100, 69, 0.434);
-    padding: 10px;
-    float: right;
-    width: 250px;
-    color: #417e41;
-}
-.sidenote:hover {
-    background-color: #fcfcfc;
-    color: #000000;
-    transform: scale(1.05);
-    border-radius: 0%;
-    border-color: #429e58;
-    cursor: pointer;
-}
-.sidenote h3 {
-font-size: 14px;
-margin-top: 0;
-}
-.sidenote ol {
-font-size: 12px;
-}
-.places {
-    float: left ;
-    width: 950px;
-}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -117,13 +105,14 @@ nav ul{
     display: flex;
 }
 nav ul li {
-    margin-left: 20px;
+    margin-left: 70px;
 }
 nav ul li a {
     color: rgb(95, 173, 112);
     text-decoration: none;
     transition: color 0.3s;
     font-weight: bold;
+    font-size: 30px;
 }
 .menu nav ul li a:hover {
     background-color: #b9dbc2;
