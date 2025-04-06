@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="pt_br">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +8,7 @@
     <script> src=" prefixfree.min.js"</script>
 </head>
 <body>
-    <h1 id="bemvindo">Bem vindo ao portal "SPACE WALKER INC."</h1>
+    <h1>Bem vindo ao portal "SPACE WALKER INC."</h1>
     <header>
         <div class="menu">
             <nav>
@@ -23,13 +23,23 @@
     </header>
     <div class="container">
         <h1><a href="">O que mais gosto em Maputo</a></h1>
-        
+        <div class="sidenote">
+            <h3>E existem muitos outros lugares interessantes na cidade...</h3>
+            <ol>
+            <li>O Mercado Municipal.</li>
+            <li>A Fortaleza da cidade.</li>
+            <li>Os pavilhoes dos principais times de futebol da cidade.</li>
+            <li>Diversos museus, como o da historia natural, Museu da geologia e o Museu da moeda.
+            </li>
+            <li>E mais!</li>
+            </ol>
+        </div>
         <div class="places">
             <div class="place">
                 <div class="footer clear"> Um pequeno guia do Florencio para os jovens que visitam Maputo procurando aventuras sem precisar de sair da cidade.</div>
 
                 <h2>Passear nas arterias da cidade!</h2>
-                <img src="cidade_2.jpg" alt="cidade Paulista" class="image">
+                <img src="cidade_2.jpg" alt="cidade Paulista">
                     <p>
                         A arquitetura da cidade é um reflexo fascinante de sua história, combinando influências coloniais portuguesas com traços africanos e modernos. Edifícios emblemáticos, como a  <a href="https://maps.app.goo.gl/ng5BLhQu8FGQ5LP78" target="_self" class="local">Estação Central de Maputo</a> e a <a href="https://maps.app.goo.gl/n6fUzR6dzb16mh6j7" target="_self" class="local">Casa de Ferro</a> , destacam-se como testemunhas do passado rico e da criatividade arquitetônica.
                         Maputo também é um polo cultural dinâmico, com mercados movimentados, como o <a href="https://maps.app.goo.gl/L4VzBQ5s2ZYjZyC39" target="_self" class="local">Mercado do Peixe</a> , onde se pode saborear frutos do mar frescos, e o <a href="https://maps.app.goo.gl/AinzgLaDKe9vwF6b6" target="_self" class="local">Mercado Central</a>, repleto de produtos artesanais e especiarias locais. A gastronomia da cidade é um ponto forte, com pratos típicos como o camarão ao molho de piri-piri e a matapa, que conquistam qualquer paladar.
@@ -41,7 +51,7 @@
             </div>
             <div class="place">
                 <h2>Curticao da cidade</h2>
-                <img src="bares_maputo.jpg" alt="bar" class="image">
+                <img src="bares_maputo.jpg" alt="bar">
                 <p>Depois de um dia de trabalho, nada melhor do que um bom copo, um petisco de carne de porco e uma conversa em uma mesa de bar com os amigos de longa data. Maputo tem uma vida noturna animada, com bares, restaurantes e clubes para todos os gostos.  O <a href="https://maps.app.goo.gl/MeizPqcsbWdPt2kA9" target="_self" class="local">Coconuts Live</a> e o <a href="https://maps.app.goo.gl/n3zJAyWMgiuZMaZo6" target="_self" class="local">Xima Bar </a> são ideais para quem busca festas agitadas com DJs.</p>
 
                 <p>Na gastronomia, o <a href="https://maps.app.goo.gl/AcjDkH2SUy3UPXjz8" target="_self" class="local">Zambi</a> e o <a href="https://maps.app.goo.gl/42J7J2bxEeXFG7hv7" target="_self" class="local">Costa do Sol</a>  se destacam pelos frutos do mar. Para algo mais descontraído, <a href="https://maps.app.goo.gl/ZUJT3MxBKZLMRwps5" target="_self" class="local">o Txhapo Txhapo</a> e o <a href="https://maps.app.goo.gl/4oJJT8Ug1Y1o9QSK7" target="_self" class="local">Mundos</a> são boas opções.</p>
@@ -53,31 +63,9 @@
                 <div class="clear"></div>
             </div>
             <div class="place">
-                <h2>Saude fisica e recreacao</h2>
-                <img src="cidade_1.jpg" alt="" class="image">
-                <p>Maputo oferece diversas opções de lazer para famílias, desde espaços ao ar livre até centros de entretenimento. O Jardim Tunduru e a FEIMA são ótimos para passeios tranquilos e piqueniques, enquanto o Parque dos Continuadores recebe eventos culturais. Para diversão aquática, o Kaya Kwanga Water Park e a piscina do Indy Village são boas escolhas. Já para quem gosta de jogos, o Game Zone no Baía Mall traz games eletrônicos e realidade virtual, e o Kartódromo de Maputo proporciona adrenalina para todas as idades. O cinema no Maputo Shopping também é uma excelente opção de lazer. 
-                <p>No esporte, ginásios como o Gym Tonik e o Indy Health Club oferecem atividades variadas, e os campos no Costa do Sol são ideais para partidas de futebol e basquete. Com tantas opções, Maputo garante diversão para toda a família.</p> </p>
-            </div>
-
-            <div class="place">
-                <h2>Educacao arte</h2>
-                <img src="universidades.png" alt="universidades">
-                <p>
-                    A cidade de Maputo destaca-se como um vibrante centro de educação e artes em Moçambique, abrigando diversas universidades, escolas secundárias e institutos dedicados ao ensino e à promoção das artes.
-
-                    Entre as principais instituições de ensino superior, destaca-se a Universidade Eduardo Mondlane (UEM), a mais antiga do país, oferecendo uma variedade de cursos em múltiplas disciplinas. A UEM também abriga a Escola de Comunicação e Artes (ECA), que ministra cursos de Jornalismo, Música, Teatro, entre outros, contribuindo significativamente para a formação artística e cultural na região.
-
-                    Outra instituição relevante é a Universidade Pedagógica de Maputo, focada na formação de professores e profissionais da educação, desempenhando um papel crucial no desenvolvimento do setor educacional moçambicano.
-
-                    No âmbito das escolas secundárias, a Escola Secundária Josina Machel é uma das mais emblemáticas de Maputo, situada entre as avenidas Patrice Lumumba e 24 de Julho, no bairro da Polana. Fundada em 1911, tem uma longa tradição na educação de jovens moçambicanos.
-
-                    Em relação às artes, o Conservatório de Música e Arte Dramática MUSIARTE destaca-se por oferecer educação artística de alta qualidade para crianças, jovens e adultos, promovendo o desenvolvimento humano através da música e das artes cênicas.
-
-                    Além disso, a Escola de Artes Xiluva oferece cursos de música, dança, desenho e pintura para todas as idades, sendo um espaço ideal para famílias interessadas em desenvolver habilidades artísticas.
-
-                    Essas instituições refletem o compromisso de Maputo com a educação e as artes, proporcionando oportunidades valiosas para o desenvolvimento acadêmico e cultural de seus habitantes.</p>
-
-
+                <h2>Saude fisica e rea</h2>
+                <img src="cidade_1.jpg" alt="">
+                <p>Maputo oferece diversas opções de lazer para famílias, desde espaços ao ar livre até centros de entretenimento. O Jardim Tunduru e a FEIMA são ótimos para passeios tranquilos e piqueniques, enquanto o Parque dos Continuadores recebe eventos culturais. Para diversão aquática, o Kaya Kwanga Water Park e a piscina do Indy Village são boas escolhas. Já para quem gosta de jogos, o Game Zone no Baía Mall traz games eletrônicos e realidade virtual, e o Kartódromo de Maputo proporciona adrenalina para todas as idades. O cinema no Maputo Shopping também é uma excelente opção de lazer. No esporte, ginásios como o Gym Tonik e o Indy Health Club oferecem atividades variadas, e os campos no Costa do Sol são ideais para partidas de futebol e basquete. Com tantas opções, Maputo garante diversão para toda a família. </p>
             </div>
              <script> src=" jquery.min.js"</script>
                 </div>
